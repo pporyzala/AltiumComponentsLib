@@ -1,0 +1,4 @@
+*Sine of Voltage
+.SUBCKT SINV 1 2
+BX 2 0 V=SIN(V(1))
+.ENDS SINV

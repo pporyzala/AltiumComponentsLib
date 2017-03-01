@@ -1,0 +1,45 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\Dropbox\_PRACA\AltiumLibrary\_AltiumDbLib.accdb;Persist Security Info=False
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=1
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Access 2007
+LibraryDatabasePath=_AltiumDbLib.accdb
+DatabasePathRelative=1
+TopPanelCollapsed=0
+LibrarySearchPath=SOURCES
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=Resistors_1608_0603_
+[Table1]
+SchemaName=
+TableName=Resistors_1608_0603_
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=74|No0=37|Library Path0=82|Component Type0=104|ComponentLink1Description0=156|ComponentLink1URL0=443|ComponentLink2Description0=156|ComponentLink2URL0=125|DatasheetDocument0=121|Footprint0=64|Footprint Path0=89|Footprint Ref0=84|Part Number0=82|Description0=76|Val0=38|Comment0=67
+[FieldMap1]
+Options=FieldName=Resistors_1608_0603_.Library Ref|TableNameOnly=Resistors_1608_0603_|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=Resistors_1608_0603_.Library Path|TableNameOnly=Resistors_1608_0603_|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=Resistors_1608_0603_.Footprint Path|TableNameOnly=Resistors_1608_0603_|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=Resistors_1608_0603_.Footprint Ref|TableNameOnly=Resistors_1608_0603_|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=Resistors_1608_0603_.Part Number|TableNameOnly=Resistors_1608_0603_|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=Resistors_1608_0603_.Description|TableNameOnly=Resistors_1608_0603_|FieldNameOnly=Description|FieldType=1|ParameterName=[Description]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=Resistors_1608_0603_.Val|TableNameOnly=Resistors_1608_0603_|FieldNameOnly=Val|FieldType=1|ParameterName=Value|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0

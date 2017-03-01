@@ -1,0 +1,4 @@
+*Exponential of Voltage
+.SUBCKT EXPV 1 2
+BX 2 0 V=EXP(V(1))
+.ENDS EXPV

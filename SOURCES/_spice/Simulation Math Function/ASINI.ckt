@@ -1,0 +1,5 @@
+*Arc sine of Current
+.SUBCKT ASINI 1 2 3 4
+VX 1 2 0
+BX 4 3 I=ASIN(I(VX))
+.ENDS ASINI

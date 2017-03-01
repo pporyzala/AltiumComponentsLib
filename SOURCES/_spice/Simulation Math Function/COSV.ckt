@@ -1,0 +1,4 @@
+*Cosine of Voltage
+.SUBCKT COSV 1 2
+BX 2 0 V=COS(V(1))
+.ENDS COSV

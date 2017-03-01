@@ -1,0 +1,4 @@
+*Hyperbolic arc cosine of Voltage
+.SUBCKT ACOSHV 1 2
+BX 2 0 V=ACOSH(V(1))
+.ENDS ACOSHV

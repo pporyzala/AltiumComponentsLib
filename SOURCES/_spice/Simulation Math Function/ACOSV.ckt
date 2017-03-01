@@ -1,0 +1,4 @@
+*Arc cosine of Voltage
+.SUBCKT ACOSV 1 2
+BX 2 0 V=ACOS(V(1))
+.ENDS ACOSV

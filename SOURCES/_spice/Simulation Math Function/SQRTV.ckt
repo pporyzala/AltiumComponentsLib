@@ -1,0 +1,4 @@
+*Square root of Voltage
+.SUBCKT SQRTV 1 2
+BX 2 0 V=SQRT(V(1))
+.ENDS SQRTV

@@ -1,0 +1,4 @@
+*Hyperbolic sine of Voltage
+.SUBCKT SINHV 1 2
+BX 2 0 V=SINH(V(1))
+.ENDS SINHV

@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<TComponentSet id="0" CurrentRevColumnWidth="100" NameColumnWidth="300" NextRevColumnWidth="100">
+  <LifeCycleDefinitionGUID>41285D71-3B08-4A1F-8689-4B95C28FBFAE</LifeCycleDefinitionGUID>
+  <RevisionNamingSchemeGUID>E9197BDA-E9EF-4360-8F74-E72904E1C0EE</RevisionNamingSchemeGUID>
+  <VaultGUID>8C92557F-A353-4422-B7F5-10C149A8E13D</VaultGUID>
+  <VaultName>Personal Vault</VaultName>
+  <RequiredParameters>
+    <TRequiredParameter id="1" ColumnWidth="100">
+      <HRID>AN</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="2" ColumnWidth="100">
+      <HRID>Comment</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="3" ColumnWidth="100">
+      <HRID>ComponentLink1Description</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="4" ColumnWidth="100">
+      <HRID>ComponentLink1URL</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="5" ColumnWidth="100">
+      <HRID>ComponentLink2Description</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="6" ColumnWidth="100">
+      <HRID>ComponentLink2URL</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="7" ColumnWidth="100">
+      <HRID>Description</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="8" ColumnWidth="100">
+      <HRID>HelpURL</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="9" ColumnWidth="100">
+      <HRID>Manufacturer</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="10" ColumnWidth="100">
+      <HRID>PackageReference</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="11" ColumnWidth="100">
+      <HRID>Param 4</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="12" ColumnWidth="100">
+      <HRID>Product Nr</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="13" ColumnWidth="100">
+      <HRID>Published</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+    <TRequiredParameter id="14" ColumnWidth="100">
+      <HRID>Supplier</HRID>
+      <Visible>true</Visible>
+    </TRequiredParameter>
+  </RequiredParameters>
+  <RequiredModels>
+    <TRequiredModel id="15" ColumnWidth="100">
+      <HRID>PCBLIB</HRID>
+      <Visible>true</Visible>
+      <ModelKind>PCBLIB</ModelKind>
+    </TRequiredModel>
+    <TRequiredModel id="16" ColumnWidth="100">
+      <HRID>SCHLIB</HRID>
+      <Visible>true</Visible>
+      <ModelKind>SCHLIB</ModelKind>
+    </TRequiredModel>
+  </RequiredModels>
+  <ModelLinks>
+    <TModelLink id="17">
+      <HRID>PCC-00000-1</HRID>
+      <VaultGUID>8C92557F-A353-4422-B7F5-10C149A8E13D</VaultGUID>
+      <ItemGUID>3E77D88F-3CFC-430D-A813-128760F9ADC3</ItemGUID>
+      <ModelKind>PCBLIB</ModelKind>
+      <RevisionGUID>CEDF8ED0-F416-411E-B9C8-9C94D4FAB91F</RevisionGUID>
+      <RevisionId>1</RevisionId>
+    </TModelLink>
+    <TModelLink id="18">
+      <HRID>PCC-00003-1</HRID>
+      <VaultGUID>8C92557F-A353-4422-B7F5-10C149A8E13D</VaultGUID>
+      <ItemGUID>4959633C-50CD-42ED-8921-9E75D22CD29C</ItemGUID>
+      <ModelKind>PCBLIB</ModelKind>
+      <RevisionGUID>FC0CDD39-6C85-4E54-A112-DA69B3C7175C</RevisionGUID>
+      <RevisionId>1</RevisionId>
+    </TModelLink>
+    <TModelLink id="19">
+      <HRID>SYM-00000-1</HRID>
+      <VaultGUID>8C92557F-A353-4422-B7F5-10C149A8E13D</VaultGUID>
+      <ItemGUID>F019FF94-C1A9-4828-998F-9983F2647005</ItemGUID>
+      <ModelKind>SCHLIB</ModelKind>
+      <RevisionGUID>721D5A57-78A7-42A0-8E40-A75B38BF2758</RevisionGUID>
+      <RevisionId>1</RevisionId>
+    </TModelLink>
+    <TModelLink id="20">
+      <HRID>SYM-00001-1</HRID>
+      <VaultGUID>8C92557F-A353-4422-B7F5-10C149A8E13D</VaultGUID>
+      <ItemGUID>A9BB3543-35EF-4335-AAC3-FA536E07EDB2</ItemGUID>
+      <ModelKind>SCHLIB</ModelKind>
+      <RevisionGUID>FBCD52DE-8D6B-450E-838D-D933E73AA09E</RevisionGUID>
+      <RevisionId>1</RevisionId>
+    </TModelLink>
+    <TModelLink id="21">
+      <HRID>SYM-00002-1</HRID>
+      <VaultGUID>8C92557F-A353-4422-B7F5-10C149A8E13D</VaultGUID>
+      <ItemGUID>B6EA903D-50C3-4352-834D-4FB07A14E97C</ItemGUID>
+      <ModelKind>SCHLIB</ModelKind>
+      <RevisionGUID>E6E01154-6094-4E3C-93A8-DF26280E7AD9</RevisionGUID>
+      <RevisionId>1</RevisionId>
+    </TModelLink>
+  </ModelLinks>
+  <PartChoiceListLinks StateIndex="2">
+    <ComponentSet href="#0"/>
+  </PartChoiceListLinks>
+  <TopGroup id="22" StateIndex="2" Collapsed="false">
+    <HRID>RJ (Registered Jack)</HRID>
+    <GUID>568BB070-E16A-4675-8503-ACB2332F9D77</GUID>
+    <Parameters/>
+    <ModelChoices/>
+    <ComponentSet href="#0"/>
+    <ItemNamingScheme>CMP-{00000}</ItemNamingScheme>
+    <Groups/>
+    <ComponentDefinitions>
+      <TComponentDefinition StateIndex="2">
+        <HRID>MIC38013-5151T-LF3</HRID>
+        <GUID>92CE406B-BD07-4981-87BB-D4A70E68A1D4</GUID>
+        <ParentGroup href="#22"/>
+        <Parameters>
+          <TParameter>
+            <RequiredParameter href="#2"/>
+            <Value>MIC38013-5151T-LF3</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#7"/>
+            <Value>MIC38013-5151T-LF3</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#1"/>
+            <Value>23772</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#8"/>
+            <Value>B:\AD\adlib\datasheet\MIC38013-5151T-LF3</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#11"/>
+            <Value>THT</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#2"/>
+            <Value>MIC38013-5151T-LF3</Value>
+          </TParameter>
+        </Parameters>
+        <ModelChoices>
+          <TModelChoice>
+            <RequiredModel href="#16"/>
+            <ModelLink href="#19"/>
+          </TModelChoice>
+          <TModelChoice>
+            <RequiredModel href="#15"/>
+            <ModelLink href="#18"/>
+          </TModelChoice>
+        </ModelChoices>
+        <ItemHRID>CMP-00000</ItemHRID>
+        <RevisionGUID>F48F9F28-839C-4FF3-B160-7CE59A5215DE</RevisionGUID>
+        <RevisionId>1</RevisionId>
+      </TComponentDefinition>
+      <TComponentDefinition StateIndex="2">
+        <HRID>HFJ11-1G01E-L12RL</HRID>
+        <GUID>C669CE62-44F3-403D-9208-A84B5086CD97</GUID>
+        <ParentGroup href="#22"/>
+        <Parameters>
+          <TParameter>
+            <RequiredParameter href="#2"/>
+            <Value>HFJ11-1G01E-L12RL</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#7"/>
+            <Value>HFJ11-1G01E-L12RL</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#1"/>
+            <Value>23772</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#8"/>
+            <Value>B:\AD\adlib\datasheet\MIC38013-5151T-LF3</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#11"/>
+            <Value>THT</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#2"/>
+            <Value>HFJ11-1G01E-L12RL</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#2"/>
+            <Value>HFJ11-1G01E-L12RL</Value>
+          </TParameter>
+        </Parameters>
+        <ModelChoices>
+          <TModelChoice>
+            <RequiredModel href="#16"/>
+            <ModelLink href="#20"/>
+          </TModelChoice>
+        </ModelChoices>
+        <ItemHRID>CMP-00001</ItemHRID>
+        <RevisionGUID>1F016526-A7A7-4E1A-A68D-4367239779A8</RevisionGUID>
+        <RevisionId>1</RevisionId>
+      </TComponentDefinition>
+      <TComponentDefinition StateIndex="2">
+        <HRID>RJ45GP</HRID>
+        <GUID>B1FB0462-607E-4DE7-A4FF-05717E0A0C44</GUID>
+        <ParentGroup href="#22"/>
+        <Parameters>
+          <TParameter>
+            <RequiredParameter href="#2"/>
+            <Value>RJ45GP</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#7"/>
+            <Value>Straight RJ45 Connector, 8PIN Socket, THT, 8p8c Pin Layout</Value>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#13"/>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#10"/>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#3"/>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#4"/>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#5"/>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#6"/>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#12"/>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#14"/>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#9"/>
+          </TParameter>
+          <TParameter>
+            <RequiredParameter href="#2"/>
+            <Value>RJ45GP</Value>
+          </TParameter>
+        </Parameters>
+        <ModelChoices>
+          <TModelChoice>
+            <RequiredModel href="#16"/>
+            <ModelLink href="#21"/>
+          </TModelChoice>
+          <TModelChoice>
+            <RequiredModel href="#15"/>
+            <ModelLink href="#17"/>
+          </TModelChoice>
+        </ModelChoices>
+        <ItemHRID>CMP-00002</ItemHRID>
+        <RevisionGUID>6A3409E3-5EF3-4F25-B213-163D511B0C70</RevisionGUID>
+        <RevisionId>1</RevisionId>
+      </TComponentDefinition>
+    </ComponentDefinitions>
+  </TopGroup>
+  <ShowReleaseState>false</ShowReleaseState>
+</TComponentSet>

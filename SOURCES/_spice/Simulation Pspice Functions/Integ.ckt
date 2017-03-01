@@ -1,0 +1,7 @@
+.SUBCKT INTEG IN OUT PARAMS: GAIN=1 IC=0
+    G1 0 N1 VALUE {V(IN)}
+    C1 N1 0 {1 / {GAIN} }
+    R1 N1 0 1G
+    E1 OUT 0 VALUE {V(N1)}
+    .IC: V(N1) = {IC}
+.ENDS INTEG

@@ -1,0 +1,4 @@
+*Tangent of Voltage
+.SUBCKT TANV 1 2
+BX 2 0 V=TAN(V(1))
+.ENDS TANV

@@ -1,0 +1,31 @@
+*Voltage Controlled Triangular Wave Oscillator
+* LOW   = Peak output low value
+* HIGH  = Peak output high value
+* CYCLE = Duty cycle
+* C1    = Input control voltage point 1
+* C2    = Input control voltage point 2
+* C3    = Input control voltage point 3
+* C4    = Input control voltage point 4
+* C5    = Input control voltage point 5
+* F1    = Output frequency point 1 
+* F2    = Output frequency point 2 
+* F3    = Output frequency point 3 
+* F4    = Output frequency point 4 
+* F5    = Output frequency point 5 
+
+* Connections:
+*               In+
+*               | In-
+*               | | Out+
+*               | | | Out-
+*               | | | |
+.SUBCKT TRIVCO 1 2 3 4 PARAMS: C1=0 C2=1 C3=2 C4=3 C5=4 
++ F1=0 F2=1k F3=2k F4=3k F5=4k LOW=-5 HIGH=5 CYCLE=0.5
+
+A1 %vd(1,2) %vd(3,4) ATRIVCO
+
+.MODEL ATRIVCO triangle(cntl_array=[{C1} {C2} {C3} {C4} {C5}]
++ freq_array=[{F1} {F2} {F3} {F4} {F5}] out_low={LOW}
++ out_high={HIGH} duty_cycle={CYCLE})
+
+.ENDS TRIVCO

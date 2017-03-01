@@ -1,0 +1,16 @@
+* Mult function
+* Each input is added to its respective offset and then multiplied by its gain.
+* The results are multiplied along with the output gain and added to the output offset. 
+* Z = ( (X + x_offset) * x_gain * (Y + y_offset) * y_gain )* out_gain + out_offset
+*
+*
+*Connections:
+*            X 
+*            |  Y
+*            |  |  OUT
+*            |  |  |
+.SUBCKT MULT 1  2  3 PARAMS: x_offset=0.0 y_offset=0.0 x_gain=1.0 y_gain=1.0 out_gain=1.0 out_offset=0.0
+A1 [1 2] 3 sigmult
+.model sigmult mult(in_offset=[{x_offset} {y_offset}] in_gain=[{x_gain} {y_gain}]
++                   out_gain={out_gain} out_offset={out_offset})
+.ENDS MULT

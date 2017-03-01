@@ -1,0 +1,5 @@
+*Absolute value of Current
+.SUBCKT ABSI 1 2 3 4
+VX 1 2 0
+BX 4 3 I=ABS(I(VX))
+.ENDS ABSI

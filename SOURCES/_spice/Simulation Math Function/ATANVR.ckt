@@ -1,0 +1,4 @@
+*Arc tangent of Voltage -- pkg:ATAN(V)
+.SUBCKT ATANVR 1 2 3 4
+BX 3 4 V=ATAN(V(1,2))
+.ENDS ATANVR

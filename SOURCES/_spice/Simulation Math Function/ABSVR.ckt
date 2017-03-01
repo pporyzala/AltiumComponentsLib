@@ -1,0 +1,4 @@
+*Absolute value of Voltage -- pkg:ABS(V)
+.SUBCKT ABSVR 1 2 3 4
+BX 3 4 V=ABS(V(1,2))
+.ENDS ABSVR

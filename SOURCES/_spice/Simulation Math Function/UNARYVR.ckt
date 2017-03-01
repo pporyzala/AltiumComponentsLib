@@ -1,0 +1,4 @@
+*Unary - of Voltage
+.SUBCKT UNARYVR 1 2 3 4
+BX 3 4 V=-(V(1,2))
+.ENDS UNARYVR

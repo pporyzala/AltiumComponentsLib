@@ -1,0 +1,5 @@
+*Arc cosine of Current
+.SUBCKT ACOSI 1 2 3 4
+VX 1 2 0
+BX 4 3 I=ACOS(I(VX))
+.ENDS ACOSI

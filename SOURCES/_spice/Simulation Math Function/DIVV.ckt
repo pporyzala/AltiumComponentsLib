@@ -1,0 +1,4 @@
+*Divide Voltages
+.SUBCKT DIVV 1 2 3
+BX 3 0 V=V(1)/V(2)
+.ENDS DIVV

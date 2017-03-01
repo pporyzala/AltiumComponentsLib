@@ -1,0 +1,4 @@
+*Hyperbolic arc sine of Voltage
+.SUBCKT ASINHVR 1 2 3 4
+BX 3 4 V=ASINH(V(1,2))
+.ENDS ASINHVR

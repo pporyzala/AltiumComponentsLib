@@ -1,0 +1,4 @@
+*Logarithm of Voltage
+.SUBCKT LOGV 1 2
+BX 2 0 V=LOG(V(1))
+.ENDS LOGV

@@ -1,0 +1,5 @@
+*Hyperbolic cosine of Current
+.SUBCKT COSHI 1 2 3 4
+VX 1 2 0
+BX 4 3 I=COSH(I(VX))
+.ENDS COSHI

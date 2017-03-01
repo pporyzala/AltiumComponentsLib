@@ -1,0 +1,19 @@
+* Multr function
+* Each differential input is added to its respective offset and then multiplied by its gain.
+* The results are multiplied along with the output gain and added to the output offset. 
+* Z = ( ((X2-X1) + x_offset) * x_gain * ((Y2-Y1) + y_offset) * y_gain )* out_gain + out_offset
+*
+*
+* Connections:
+*             X1 Positive Input
+*             |   X2 Negative Input
+*             |   |   Y1 Positive Input
+*             |   |   |   Y2 NegativeInput
+*             |   |   |   |   Z1 Positive Output
+*             |   |   |   |   |   Z2 Negative Output
+*             |   |   |   |   |   |
+.SUBCKT MULTR 1   2   3   4   5   6 PARAMS: x_offset=0.0 y_offset=0.0 x_gain=1.0 y_gain=1.0 out_gain=1.0 out_offset=0.0
+A1 [%vd(1,2) %vd(3,4)] %vd(5,6) sigmult
+.model sigmult mult(in_offset=[{x_offset} {y_offset}] in_gain=[{x_gain} {y_gain}]
++                   out_gain={out_gain} out_offset={out_offset})
+.ENDS MULTR

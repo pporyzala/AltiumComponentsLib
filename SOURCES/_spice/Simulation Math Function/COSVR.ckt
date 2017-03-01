@@ -1,0 +1,4 @@
+*Cosine of Voltage
+.SUBCKT COSVR 1 2 3 4
+BX 3 4 V=COS(V(1,2))
+.ENDS COSVR

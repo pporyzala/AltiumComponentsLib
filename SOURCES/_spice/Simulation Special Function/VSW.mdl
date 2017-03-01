@@ -1,0 +1,2 @@
+*Default voltage-controlled switch
+.MODEL VSW SW()

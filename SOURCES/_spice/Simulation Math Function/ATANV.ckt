@@ -1,0 +1,4 @@
+*Arc tangent of Voltage
+.SUBCKT ATANV 1 2
+BX 2 0 V=ATAN(V(1))
+.ENDS ATANV

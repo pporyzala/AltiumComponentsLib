@@ -1,0 +1,6 @@
+*Divide Currents
+.SUBCKT DIVI 1 2 3 4 5 6
+VA 1 2 0
+VB 3 4 0
+BX 6 5 I=I(VA)/I(VB)
+.ENDS DIVI

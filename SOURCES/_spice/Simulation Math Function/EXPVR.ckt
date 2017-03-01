@@ -1,0 +1,4 @@
+*Exponential of Voltage
+.SUBCKT EXPVR 1 2 3 4
+BX 3 4 V=EXP(V(1,2))
+.ENDS EXPVR

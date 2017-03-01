@@ -1,0 +1,5 @@
+.subckt Differ IN OUT
+    C IN N1 1
+    V N1 0  0v
+    E OUT 0 VALUE {1.0 * I(V)}
+.ends Differ

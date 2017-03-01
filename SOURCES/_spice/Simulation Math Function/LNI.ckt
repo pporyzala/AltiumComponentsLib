@@ -1,0 +1,5 @@
+*Natural logarithm of Current
+.SUBCKT LNI 1 2 3 4
+VX 1 2 0
+BX 4 3 I=LN(I(VX))
+.ENDS LNI

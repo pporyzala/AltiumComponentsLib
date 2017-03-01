@@ -1,0 +1,5 @@
+*Cosine of Current
+.SUBCKT COSI 1 2 3 4
+VX 1 2 0
+BX 4 3 I=COS(I(VX))
+.ENDS COSI

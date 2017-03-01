@@ -1,0 +1,5 @@
+*Square root of Current
+.SUBCKT SQRTI 1 2 3 4
+VX 1 2 0
+BX 4 3 I=SQRT(I(VX))
+.ENDS SQRTI

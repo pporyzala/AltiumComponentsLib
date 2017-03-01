@@ -1,0 +1,4 @@
+*Tangent of Voltage
+.SUBCKT TANVR 1 2 3 4
+BX 3 4 V=TAN(V(1,2))
+.ENDS TANVR

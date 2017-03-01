@@ -1,0 +1,4 @@
+*Arc sine of Voltage
+.SUBCKT ASINV 1 2
+BX 2 0 V=ASIN(V(1))
+.ENDS ASINV

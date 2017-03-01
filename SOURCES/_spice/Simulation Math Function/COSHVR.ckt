@@ -1,0 +1,4 @@
+*Hyperbolic cosine of Voltage
+.SUBCKT COSHVR 1 2 3 4
+BX 3 4 V=COSH(V(1,2))
+.ENDS COSHVR
