@@ -28,8 +28,8 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
-LogFolderPath=
+OutputPath=Output\semiconductors\ics
+LogFolderPath=Output\semiconductors\ics
 ManagedProjectGUID=
 LinkedManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -71,6 +71,12 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XGIOAIUU
+
+[Generic_EDE]
+OutputDir=Output\semiconductors\ics
+
+[Generic_IntLibOptions]
+OldFormat=False
 
 [OutputGroup1]
 Name=Netlist Outputs
