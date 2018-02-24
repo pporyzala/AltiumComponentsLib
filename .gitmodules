@@ -1,0 +1,3 @@
+[submodule "AltiumComponentsLib_PRIVATE"]
+	path = AltiumComponentsLib_PRIVATE
+	url = https://github.com/pporyzala/AltiumComponentsLib_PRIVATE.git
